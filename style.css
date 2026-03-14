@@ -60,7 +60,6 @@ body{
 .menu a:hover {
     background: white;
     color: black;
-    animation: forwards;
 }
 
 .aboutcontent {
@@ -103,4 +102,78 @@ footer a:visited {
 footer a:hover {
     background:  white;
     color: black;
+}
+
+.contactcontent {
+    margin-top: 220px;
+    align-items: center;
+    text-align: center;
+    
+}
+
+.contactcontent h3 + h2 {
+    margin-top: 40px;
+}
+
+h2 {
+    font-family: monospace;
+    color: white;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+h3 {
+    font-family: monospace;
+    color: white;
+    font-size: 12px;
+    font-weight: 100;
+}
+
+.socialicons {
+    margin-top: 30px;
+    display: flex;
+    gap: 20px;
+}
+
+.socialicons a {
+    text-decoration: none;
+    line-height: 0;
+}
+
+.socialicons i {
+    color: grey;
+    font-size: 20px;
+    display: block;
+}
+
+.socialicons i:hover {
+    color: white;
+}
+
+.termscontent {
+    margin-top: 200px;
+    text-align: center;
+}
+
+.termscontent p {
+    margin-top: 40px;
+    color: white;
+    font-family: monospace;
+    font-size: 12px;
+}
+
+.privacycontent {
+    margin-top: 200px;
+    text-align: center;
+}
+
+.privacycontent p {
+    margin-top: 40px;
+    color: white;
+    font-family: monospace;
+    font-size: 12px;
+}
+
+.coming {
+    margin-top: 200px;
 }
