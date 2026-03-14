@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 html, body {
     height: 100%;
     margin: 0;
@@ -176,4 +177,184 @@ h3 {
 
 .coming {
     margin-top: 200px;
+=======
+html, body {
+    height: 100%;
+    margin: 0;
+}
+
+body{
+    background-color: black;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    align-items: center;
+}
+
+.verse-container {
+    position: absolute;
+    text-align: center;
+    margin-top: 140px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+#verse {
+    text-align: center;
+    font-size: 12px;
+    font-weight: bold;
+    color: white;
+    font-family: monospace;
+}
+
+
+.logo{
+    width: 160px;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 80px;
+}
+
+.menu{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    margin-top: 220px;
+}
+
+.menu a {
+    color: white;
+    text-decoration: none;
+    padding: 1px 5px;
+    font-size: 12px;
+    font-family: monospace;
+}
+
+.menu a:visited {
+    color: white;
+}
+
+.menu a:hover {
+    background: white;
+    color: black;
+}
+
+.aboutcontent {
+    margin-top: 250px;
+}
+
+.aboutcontent p {
+    color: white;
+    font-size: 12px;
+    font-family: monospace;
+    text-align: center;
+}
+
+footer {
+    margin-top: auto;
+    text-align: center;
+    padding: 1px 5px;
+
+}
+
+footer p {
+    color: grey;
+    font-family: monospace;
+    font-size: 12px;
+ }
+
+footer a {
+    color: white;
+    font-family: monospace;
+    font-size: 12px;
+    text-decoration: none;
+    margin: 0 10px;
+    padding: 1px 5px;
+}
+
+footer a:visited {
+    color: white;
+}
+
+footer a:hover {
+    background:  white;
+    color: black;
+}
+
+.contactcontent {
+    margin-top: 220px;
+    align-items: center;
+    text-align: center;
+    
+}
+
+.contactcontent h3 + h2 {
+    margin-top: 40px;
+}
+
+h2 {
+    font-family: monospace;
+    color: white;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+h3 {
+    font-family: monospace;
+    color: white;
+    font-size: 12px;
+    font-weight: 100;
+}
+
+.socialicons {
+    margin-top: 30px;
+    display: flex;
+    gap: 20px;
+}
+
+.socialicons a {
+    text-decoration: none;
+    line-height: 0;
+}
+
+.socialicons i {
+    color: grey;
+    font-size: 20px;
+    display: block;
+}
+
+.socialicons i:hover {
+    color: white;
+}
+
+.termscontent {
+    margin-top: 200px;
+    text-align: center;
+}
+
+.termscontent p {
+    margin-top: 40px;
+    color: white;
+    font-family: monospace;
+    font-size: 12px;
+}
+
+.privacycontent {
+    margin-top: 200px;
+    text-align: center;
+}
+
+.privacycontent p {
+    margin-top: 40px;
+    color: white;
+    font-family: monospace;
+    font-size: 12px;
+}
+
+.coming {
+    margin-top: 200px;
+>>>>>>> e8b31e9e10f953f3e388e40da34e79afdb494083
 }
